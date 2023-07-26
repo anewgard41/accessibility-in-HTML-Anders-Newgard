@@ -1,4 +1,4 @@
-# module-1-challenge
+# Accessibility in HTML
 ## Andrew Newgard (Anders)
 
 This challenge had us take existing HTML documentation and make it more accessible. 
