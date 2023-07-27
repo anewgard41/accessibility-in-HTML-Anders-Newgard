@@ -47,6 +47,8 @@ body {
     margin-left: 25px;
 }
 
+/* these next two elemental selectors establish font color and font size for nav links and paragraph sections respectively. */
+
 a {
     color: #ffffff;
     text-decoration: none;
@@ -56,6 +58,8 @@ p {
     font-size: 16px;
 }
 
+/* This hero class selector gives dimension and positioning properites to the large central image on the homepage. */
+
 .hero {
     height: 800px;
     width: 100%;
@@ -64,6 +68,8 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+/* the float class selectors assist with positioning of the article components */ 
 
 .float-left {
     float: left;
@@ -80,6 +86,8 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
+
+/* the class selectors belonging to the benefits aside. They all establish a specific color and margin demensions in order to have the content space out properly */
 
 .benefits {
     margin-right: 20px;
