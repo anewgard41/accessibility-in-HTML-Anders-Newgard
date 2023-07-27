@@ -1,12 +1,18 @@
+/* Only wild card selector in the CSS. Establishes no baseline padding or margin. */
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Elemental selector defining the background color for the entirety of the webpage. */
+
 body {
     background-color: #d9dcd6;
 }
+
+/* First class selector establishing a font family, background color, and font color for the header class. This is where you'll find the organization's title, and the websites' navigational elements. */
 
 .header {
     padding: 20px;
