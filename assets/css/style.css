@@ -30,6 +30,7 @@ body {
     color: #d9dcd6;
 }
 
+/* establishing proper content spacing with padding and margin. Floating tot he right in display. Font family and size established. */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -38,6 +39,7 @@ body {
     font-size: 20px;
 }
 
+/* list-style-type means no special numbering or bulleting will happen */
 .header div ul {
     list-style-type: none;
 }
@@ -56,6 +58,11 @@ a {
 
 p {
     font-size: 16px;
+}
+
+/* added padding to the nav list in the header. felt too squished against the margin. */
+ul {
+    padding: 10px;
 }
 
 /* This hero class selector gives dimension and positioning properites to the large central image on the homepage. */
@@ -100,6 +107,7 @@ p {
     background-color: #2589bd;
 }
 
+/* these next three class selectors define the margin and font color of the aside section. */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -115,6 +123,7 @@ p {
     color: #ffffff;
 }
 
+/* these class slectors define the font size for h3 ehaders and align the text in the center of the aside. */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -130,6 +139,7 @@ p {
     text-align: center;
 }
 
+/* sizing and margin of images in aside */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -148,6 +158,7 @@ p {
     max-width: 150px;
 }
 
+/* primary styling for main Search Engine Optimization, Online Repuation Management, and Social Media Marketing sections. defines margin and padding, font family, font/background colors. */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -175,6 +186,7 @@ p {
     color: #ffffff;
 }
 
+/* sizing for images within main sections */
 .search-engine-optimization img {
     max-height: 200px;
 }
@@ -187,6 +199,7 @@ p {
     max-height: 200px;
 }
 
+/* sizing for h2 headers within main content sections. */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -202,6 +215,7 @@ p {
     font-size: 36px;
 }
 
+/* footer styling and font size for h2 within the footer */
 .footer {
     padding: 30px;
     clear: both;
